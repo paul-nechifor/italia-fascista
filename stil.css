@@ -7,14 +7,15 @@ html	{background:#ECE1B4;}
 body	{background:url(imagini/old.png); background-attachment:fixed; background-position:center;}
 
 /*#################### POZITII ####################*/
+
 div#stanga		{display:table-cell; width:70px; background:url(imagini/stanga70.png);}
 div#dreapta		{display:table-cell; width:70px; background:url(imagini/dreapta70.png);}
 div#tabel		{width:950px; margin:0 auto 0 auto;}
 div#principal	{display:table-cell; width:810px;}
 div#antet		{display:block; width:810px; height:130px; background:#F1F4EB;}
-div#continut	{display:table-row; background:#F1F4EB url(imagini/titlu_fundal.png) no-repeat;}
-div#scris		{display:table-cell; width:581px;}
+div#continut	{background:#F1F4EB url(imagini/titlu_fundal.png) no-repeat; margin-top:-4px}
 div#meniu		{display:table-cell; width:229px; background:url(imagini/meniu_fundal.png) repeat-y right;}
+div#scris		{display:table-cell;  width:581px;}
 div#footer		{display:block; width:810px; height:107px; background:url(imagini/footer.png) no-repeat;}
 
 /*#################### FONTURI ####################*/
@@ -40,14 +41,16 @@ div#textul h2#t_test			{background:url(imagini/titluri/test.png) no-repeat;}
 div#textul h2#t_bibliografie	{background:url(imagini/titluri/bibliografie.png) no-repeat;}
 div#textul h2#t_autor			{background:url(imagini/titluri/autor.png) no-repeat;}
 
+
 /*#################### MENIU ####################*/
-div#meniu div#meniu_titlu {height:187px; margin-top:-21px; background:url(imagini/meniu_titlu.png) no-repeat right;}
-div#meniu div#meniu_titlu h3 {display:none;}
+div#meniu div#meniu_titlu {height:187px; margin-top:-20px; background:url(imagini/meniu_titlu.png)  no-repeat 2px -4px;}
+div#meniu div#meniu_titlu h3 { text-indent:-9999px;}
 div#meniu ul {padding:0; margin:-100px 0 0 0;}
 div#meniu li {list-style:none; padding:0; margin:0;}
 div#meniu a  {display:block; height:53px; width:231px;}
 div#meniu a:focus {outline:none;}
 div#meniu a span.ascunde {display:none;}
+
 
 div#meniu a#prima_pagina	{background:url(imagini/meniu_normal.png) no-repeat 20px 0px;}
 div#meniu a#introducere		{background:url(imagini/meniu_normal.png) no-repeat 20px -53px;}
@@ -109,23 +112,3 @@ div#fundal_galerie div#loc_butoane { width:360px; margin:0 auto;}
 div#fundal_galerie div#loc_butoane img {margin-top:30px;}
 div#fundal_galerie div#desc_imagine p {margin-left:-40px; padding:0; text-align:center; line-height:1.1; font-size:20px;}
 div#fundal_galerie div#desc_imagine p#desc_imagine_text {font-style:italic; font-size:17px; margin-bottom:7px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
