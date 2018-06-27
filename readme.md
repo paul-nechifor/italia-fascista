@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/italia-fascista](http://gitlab.com/paul-nechifor/italia-fascista).
+
+Old readme:
+
 # Italia fascistă
 
 A history themed web site I build in high school for a competition in 2007.
